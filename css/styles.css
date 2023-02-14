@@ -291,8 +291,10 @@ text-decoration: none;
  }
  .container-button{
   display: flex;
-  text-align: center;
-  
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+    
  }
  .button-portfolio {  
     font-weight: 500;
@@ -304,20 +306,20 @@ text-decoration: none;
     cursor: pointer;
     color:var(--accent-color);
     background-color: #F4F4FD;
-    align-items: center;
-    margin-left: 24px; 
-    margin-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin: 84px;
+    align-items: center;    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+  
   
 }
 .about-container{
 display: flex;
 flex-wrap: wrap;
 gap: 48px 24px;
+margin-bottom:72px;
+
 
 }
  .button-portfolio:hover,
@@ -334,6 +336,7 @@ gap: 48px 24px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--grey-color);
+   
   }
   
     
