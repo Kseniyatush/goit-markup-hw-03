@@ -1,7 +1,3 @@
-* {
-
-box-sizing:border-box;
-}
 
 :root {
 --accent-color:#4D5AE5;
@@ -221,6 +217,7 @@ text-decoration: none;
        text-transform: capitalize;
        color: var(--grey-color);
        text-align: center;
+       margin: 72px;
              
 
       }
@@ -231,7 +228,7 @@ text-decoration: none;
                   text-transform: capitalize;
                   color: var(--grey-color);
                   text-align: center;
-                  
+                  margin: 72px;
 
                    
                 }
@@ -295,7 +292,6 @@ text-decoration: none;
  .container-button{
   display: flex;
   text-align: center;
-  justify-content: space-between;
   
  }
  .button-portfolio {  
@@ -309,10 +305,20 @@ text-decoration: none;
     color:var(--accent-color);
     background-color: #F4F4FD;
     align-items: center;
-      margin-left: 24px;
-      margin-right: 24px;
-
+    margin-left: 24px; 
+    margin-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 84px;
   
+}
+.about-container{
+display: flex;
+flex-wrap: wrap;
+gap: 48px 24px;
+
 }
  .button-portfolio:hover,
  .button-portfolio:focus {background-color:#404BBF;
@@ -322,6 +328,7 @@ text-decoration: none;
 
 
 .about-portfolio {
+  flex-basis: calc((100% - 2 * 24px) / 3);
   font-size: 36px;
     line-height: 1.11;   
     letter-spacing: 0.02em;
