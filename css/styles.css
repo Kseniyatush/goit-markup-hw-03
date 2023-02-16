@@ -50,6 +50,7 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #E7E9FC;
 }
 .page-header-container {
   display: flex;
@@ -100,7 +101,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--grey-color);
   text-decoration: none;
-  margin-right: 24px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -189,7 +189,7 @@ img {
 .job-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 29px;
+
 }
 
 .secjob {
@@ -199,6 +199,7 @@ img {
 .job-seclist {
   display: flex;
   justify-content: space-between;
+
 }
 
 .tittle {
@@ -208,7 +209,7 @@ img {
   text-transform: capitalize;
   color: var(--grey-color);
   text-align: center;
-  margin: 72px;
+  margin bottom: 72px;
 }
 .tittle-container {
   font-size: 36px;
@@ -217,22 +218,32 @@ img {
   text-transform: capitalize;
   color: var(--grey-color);
   text-align: center;
-  margin: 72px;
+  margin-bottom: 72px;
 }
 .about-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--grey-color);
-  text-align: center;
+  color: var(--grey-color);  
+  margin-bottom: 8px;
 }
 
 .about-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color);
-  text-align: center;
+ 
+}
+
+.secjob-item{
+margin-bottom: 32px;
+padding-bottom: 32px;
+background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+text-align: center;
+
 }
 .footer-section {
   background: var(--grey-bg-color);
@@ -260,8 +271,7 @@ img {
   color: var(--accent-color);
   text-transform: uppercase;
   text-decoration: none;
-  display: flex;
-  align-items: center;
+ 
 }
 
 .logo-secfooter {
@@ -270,6 +280,11 @@ img {
 
 ul {
   list-style: none;
+}
+.portfolio{
+padding-top: 96px;
+padding-bottom: 120px;
+
 }
 .container-button {
   display: flex;
@@ -287,17 +302,17 @@ ul {
   cursor: pointer;
   color: var(--accent-color);
   background-color: #f4f4fd;
-  align-items: center;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
+  border: none;
 }
 .about-container {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  margin-bottom: 72px;
+  
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -307,9 +322,5 @@ ul {
 
 .about-portfolio {
   flex-basis: calc((100% - 2 * 24px) / 3);
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--grey-color);
+  
 }
