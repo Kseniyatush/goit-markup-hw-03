@@ -50,7 +50,7 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
@@ -189,7 +189,6 @@ img {
 .job-list {
   display: flex;
   justify-content: space-between;
-
 }
 
 .secjob {
@@ -199,19 +198,18 @@ img {
 .job-seclist {
   display: flex;
   justify-content: space-between;
-
 }
 
-.tittle {
+.team-tittle {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--grey-color);
   text-align: center;
-  margin bottom: 72px;
+  margin-bottom: 72px;
 }
-.tittle-container {
+.job-tittle {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -225,7 +223,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--grey-color);  
+  color: var(--grey-color);
   margin-bottom: 8px;
 }
 
@@ -233,18 +231,19 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color);
- 
+}
+.secjob-img {
+  margin-bottom: 32px;
+}
+.secjob-item {
+  padding-bottom: 32px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 
-.secjob-item{
-margin-bottom: 32px;
-padding-bottom: 32px;
-background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-text-align: center;
-
-}
 .footer-section {
   background: var(--grey-bg-color);
   padding-top: 100px;
@@ -271,7 +270,6 @@ text-align: center;
   color: var(--accent-color);
   text-transform: uppercase;
   text-decoration: none;
- 
 }
 
 .logo-secfooter {
@@ -281,10 +279,9 @@ text-align: center;
 ul {
   list-style: none;
 }
-.portfolio{
-padding-top: 96px;
-padding-bottom: 120px;
-
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .container-button {
   display: flex;
@@ -308,11 +305,17 @@ padding-bottom: 120px;
   padding-right: 24px;
   border: none;
 }
+.portfolio-context {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border: 1px solid #e7e9fc;
+  border-top: 0;
+}
 .about-container {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -322,5 +325,4 @@ padding-bottom: 120px;
 
 .about-portfolio {
   flex-basis: calc((100% - 2 * 24px) / 3);
-  
 }
